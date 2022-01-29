@@ -63,7 +63,7 @@ function Registercard() {
 
               <input
                 type="text"
-                class="inputform form-control"
+                class="inputform "
                 placeholder="Name"
                 name="name"
                 onChange={(e) => setName(e.target.value)}
@@ -71,7 +71,7 @@ function Registercard() {
 
               <input
                 type="text"
-                class="inputform form-control"
+                class="inputform"
                 placeholder="Phone"
                 name="phone"
                 onChange={(e) => setPhone(e.target.value)}
@@ -79,7 +79,7 @@ function Registercard() {
 
               <input
                 type="text"
-                class="inputform form-control"
+                class="inputform"
                 placeholder="District"
                 name="district"
                 onChange={(e) => setDistrict(e.target.value)}
@@ -87,7 +87,7 @@ function Registercard() {
 
               <input
                 type="text"
-                class="inputform form-control"
+                class="inputform"
                 placeholder="Pincode"
                 name="pincode"
                 onChange={(e) => setPincode(e.target.value)}
@@ -97,7 +97,7 @@ function Registercard() {
             <div className="right-register">
               <input
                 type="email"
-                class="inputform form-control"
+                class="inputform "
                 placeholder="Email"
                 name="email"
                 onChange={(e) => setEmail(e.target.value)}
@@ -105,7 +105,7 @@ function Registercard() {
 
               <input
                 type="text"
-                class="inputform form-control"
+                class="inputform "
                 id="pwd"
                 placeholder="State"
                 name="state"
@@ -114,7 +114,7 @@ function Registercard() {
 
               <input
                 type="text"
-                class="inputform form-control"
+                class="inputform "
                 placeholder="Address"
                 name="pwd"
                 onChange={(e) => setAddress(e.target.value)}
@@ -122,7 +122,7 @@ function Registercard() {
 
               <input
                 type="password"
-                class="inputform form-control"
+                class="inputform "
                 placeholder="Password"
                 name="pwd"
                 onChange={(e) => setPassword(e.target.value)}

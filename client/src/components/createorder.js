@@ -47,7 +47,7 @@ function Createorder() {
           <div class="col-lg-11">
             <div class="row">
               <div class="col-lg-2">
-                <p>Orders | 0</p>
+                <p>Orders</p>
               </div>
               <div class="col-lg-8"></div>
               <div class="col-lg-2">
@@ -56,6 +56,7 @@ function Createorder() {
                   <input
                     type="text"
                     class="form-control"
+                    id="searchbar"
                     placeholder="Search"
                   />
                 </div>
@@ -63,7 +64,7 @@ function Createorder() {
             </div>
             <div class="createbtn">
               <p class="order-ava">No Orders available</p>
-              <button class="btn create-order" onClick={createlist}>
+              <button class="create-button" onClick={createlist}>
                 Create
               </button>
             </div>

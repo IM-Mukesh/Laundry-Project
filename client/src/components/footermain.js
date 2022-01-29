@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footermain.css';
+import './MyFooter.css';
 import Facebook from '../assets/facebook.svg'
 import Instagram from '../assets/instagram.svg'
 import Linkedin from '../assets/linkedin.svg'
@@ -41,4 +41,5 @@ const Footer = () => {
       </div>
   </div>;
 };
+
 export default Footer;

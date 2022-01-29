@@ -36,7 +36,7 @@ function Listview() {
       .catch((e) => {
         alert("unAuthorized user");
       });
-  });
+  }, );
   return (
     <div>
       <Orderheader />

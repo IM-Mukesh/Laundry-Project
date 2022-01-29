@@ -33,10 +33,6 @@ function App() {
         <Route path="/listview">
           <ListView />
         </Route>
-        // just for testing summary page.
-        <Route path="/summary">
-          <Summary />
-        </Route>
       </Switch>
     </Router>
   );

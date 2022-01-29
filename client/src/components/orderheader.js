@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Navbar, Nav } from "react-bootstrap";
-import Image from "../assets/img1.png";
 import "./mainhome.css";
 import { useHistory } from "react-router-dom";
 import axios from "axios";
 import { getToken } from "../Utils/AuthOperations";
+import './OrderHeader.css'
 
 function Orderheader() {
   const [user, setUser] = useState("");
@@ -33,14 +33,14 @@ function Orderheader() {
           Laundry
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Collapse id="responsive-navbar-nav" >
           <Nav className="me-auto"></Nav>
-          <Nav>
+          <Nav id="login-header">
             <Nav.Link href="#features">Pricing</Nav.Link>
             <Nav.Link href="#features">Career</Nav.Link>
             <Nav.Link href="#features">
-              <p class="signinlink">
-                <img src={Image} class="img" alt="image1" />
+              <p class="signinlink" id="signinlink">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSDXwxl3CI0u9Bwy-tkjM9cIbiLiIa1QxPJQ&usqp=CAU" class="img" alt="image1" />
                 {user}
               </p>
             </Nav.Link>

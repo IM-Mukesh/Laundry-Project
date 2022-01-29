@@ -65,13 +65,12 @@ function Signin() {
       <div className='sign-in'>
         <h2>SIGN IN</h2>
         <div className='input-field'>
-        <form method='POST'>
+        <form method='POST' id="signin-form">
         <input
                 type="text"
                 id="phone"
                 placeholder="Mobile/Email"
                 name="email"
-                // pattern="[7-9]{1}[0-9]{9}"
                 onChange={(e) => setEmail(e.target.value)}
         />
         <input

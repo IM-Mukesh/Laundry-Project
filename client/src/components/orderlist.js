@@ -31,14 +31,14 @@ function Orderlist() {
     {
       image: "shirt.jpg",
       description:
-        "We deliver best quality washing shirts ",
+        "Best shirt Wash & service ",
       name: "Shirts",
       type: "Boolean",
     },
     {
       image: "tshirt.jpg",
       description:
-        "We deliver best quality washing t-shirts",
+        "Best t-shirt Wash & Service",
       name: "Tshirts",
       type: "Boolean",
     },
@@ -101,7 +101,8 @@ function Orderlist() {
                   <input
                     type="text"
                     class="form-control"
-                    placeholder="Search"
+                    id="searchbar"
+                    placeholder="search"
                   />
                 </div>
               </div>

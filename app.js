@@ -9,7 +9,7 @@ const jwt = require("jsonwebtoken");
 
 const app = express();
 const db =
-  "mongodb://localhost:27017/ourlaundry";
+  "mongodb+srv://mukesh:mukesh1234@cluster0.qp6ub.mongodb.net/mylaundry?retryWrites=true&w=majority";
 
 mongoose
   .connect(db, {

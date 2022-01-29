@@ -23,3 +23,8 @@
   margin-right: 50px;
   margin-left: auto;
 }
+
+.form-control{
+  width: 75px;
+  text-align: center;
+}

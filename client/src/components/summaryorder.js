@@ -64,17 +64,10 @@ function Summaryorder(props) {
         <div class="card bg-Basic">
           <div class="card-body text-center">
             <h6 class="card-title">Home</h6>
-            <p class="card-text">#4-132, A-Colony, Jamshedpur, Near SBI</p>
+            <p class="card-text">7th cross Road Maruthi Nagar BTM Phase 1 Bangalore</p>
           </div>
         </div>
-        <div class="card bg-Basic">
-          <div class="card-body text-center">
-            <h6 class="card-title">Home</h6>
-            <p class="card-text">
-              #4-1/2A, B-Colony, Hyderabad, Opposite Green valley
-            </p>
-          </div>
-        </div>
+        
       </div>
 
       <div class="btncon">

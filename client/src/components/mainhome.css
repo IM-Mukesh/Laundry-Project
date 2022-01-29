@@ -201,8 +201,8 @@
   border: 1px solid #5861ae;
   border-radius: 4px;
   opacity: 1;
-  padding: 0px 25px;
-  font: normal normal 600 14px/48px Open Sans;
+  padding: 6px 25px;
+  /* font: normal normal 600 14px/48px Open Sans; */
   letter-spacing: 0px;
   color: #5861ae;
 }
@@ -218,5 +218,19 @@
   font: normal normal 600 14px/48px Open Sans;
   letter-spacing: 0px;
   color: #5861ae;
-  padding: 0px 25px;
+  /* padding: 0px 25px; */
+}
+
+.create-button{
+  padding: .3rem .8rem;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #5861ae;
+  border-color: #5861ae;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+#searchbar{
+  width: 150px;
 }
